@@ -1,6 +1,7 @@
 package com.jiraynor.board_back.dto.response;
 
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 
 import com.jiraynor.board_back.common.ResponseCode;
 import com.jiraynor.board_back.common.ResponseMessage;
