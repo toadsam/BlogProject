@@ -1,4 +1,5 @@
 import React from 'react'
+import './style.css';
 
 
 // render : 인증 화면 컴포넌트 렌더링 //

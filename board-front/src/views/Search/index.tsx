@@ -4,9 +4,9 @@ import './style.css';
 // component : 게시물 검색 화면 컴포넌트 //
 export default function Search() {
 
-// component : 게시물 상세 화면 컴포넌트 //
+// component : 게시물 검색 화면 컴포넌트 렌더링 //
   return (
 
-    <div>index</div>
+    <div>검색 화면</div>
   )
 }
