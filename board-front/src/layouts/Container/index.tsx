@@ -1,3 +1,4 @@
+import { AUTH_PATH } from 'constant';
 import Footer from 'layouts/Footer'
 import Header from 'layouts/Header'
 import React from 'react'
@@ -15,8 +16,8 @@ export default function Container() {
     <>
         <Header/>
         <Outlet/>
-        {pathname !== '/auth' && <Footer/>}
-        <Footer/>
+        {pathname !== AUTH_PATH() && <Footer/>}
+   
     
     
     
