@@ -19,11 +19,11 @@
 }
 
 .black-button:hover{
-  background-color: rgba(0,0,0,0.98);
+  background-color: rgba(0,0,0,0.85);
 }
 
 .white-button{
-  border: 1px solid rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.5);
   border-radius: 46px;
   width: 95px;
   height: 28px;
@@ -39,11 +39,13 @@
   font-size : 14px;
   font-weight: 500;
   line-height: 140%;
+
+  cursor : pointer;
 }
 
 
-.white-button {
-  background-color: rgba(0,0,0,0.5);
+.white-button:hover{
+  background-color: rgba(0,0,0,0.05);
 
 
 }
