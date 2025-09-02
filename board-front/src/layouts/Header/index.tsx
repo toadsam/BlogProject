@@ -96,6 +96,8 @@ export default function Header() {
 
     //event handler : 마이페이지 버튼 클릭 이벤트 처리 함수 //
     const onMyPageButtonClickHandler = () => {
+      if(!loginUser) return;
+      const {email} = loginUser;
       navigate(USER_PATH(''));
     };
 
